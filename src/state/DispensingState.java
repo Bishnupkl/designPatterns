@@ -21,7 +21,7 @@ public class DispensingState implements  CoffeeMachineState{
 
     @Override
     public void dispenseCoffee() {
-        System.out.println("Coddee is ready, Please take it");
+        System.out.println("Coffee is ready, Please take it");
         coffeeMachine.setState(coffeeMachine.getIdleState());
     }
 }
